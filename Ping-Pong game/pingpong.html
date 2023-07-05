@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ping Pong Game</title>
+  <link rel="Stylesheet" href="pingpong.css">
+  <link rel="javascript" href="pingpong.js">
+  <style>
+    #game-board {
+      width: 600px;
+      height: 400px;
+      background-color: lightgray;
+      position: relative;
+    }
+
+    #paddle {
+      width: 10px;
+      height: 80px;
+      background-color: blue;
+      position: absolute;
+    }
+
+    #ball {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-board">
+    <div id="paddle"></div>
+    <div id="ball"></div>
+  </div>
+
+  <script src="pingpong.js"></script>
+</body>
+</html>
